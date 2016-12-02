@@ -17,14 +17,17 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
-/*html {
-    background-color: #FFF2E5;
+body, .navbar {
+    background: #2ecc71; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1abc9c, #2ecc71); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1abc9c, #2ecc71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-}*/
+}
 
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    border: none;
 }
